@@ -24,7 +24,5 @@ int	main()
 	char src[] = "sinop";
 	char dest[] = "krb57";
 
-	printf("%s", ft_strncpy(dest, src, 2));
-	printf("\n%s", ft_strncpy(dest, src, 4));
-	printf("\n%s", ft_strncpy(dest, src, 6));
+	printf("%s", ft_strncpy(dest, src, 3));
 }
